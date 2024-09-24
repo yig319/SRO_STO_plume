@@ -1,3 +1,6 @@
 [submodule "py-characterization"]
 	path = py-characterization
 	url = https://github.com/yig319/py-characterization.git
+[submodule "plume_dynamic_analyzer"]
+	path = plume_dynamic_analyzer
+	url = https://github.com/yig319/plume_dynamic_analyzer.git
