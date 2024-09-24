@@ -4,3 +4,6 @@
 [submodule "plume_dynamic_analyzer"]
 	path = plume_dynamic_analyzer
 	url = https://github.com/yig319/plume_dynamic_analyzer.git
+[submodule "py-utils"]
+	path = py-utils
+	url = https://github.com/yig319/py-utils.git
