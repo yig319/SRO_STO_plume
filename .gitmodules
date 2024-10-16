@@ -4,3 +4,6 @@
 [submodule "src/Plume-Learn"]
 	path = src/Plume-Learn
 	url = https://github.com/m3-learning/Plume-Learn.git
+[submodule "src/XRD-Learn"]
+	path = src/XRD-Learn
+	url = https://github.com/m3-learning/XRD-Learn.git
