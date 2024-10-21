@@ -7,3 +7,6 @@
 [submodule "src/XRD-Learn"]
 	path = src/XRD-Learn
 	url = https://github.com/m3-learning/XRD-Learn.git
+[submodule "src/M3Learning-Util"]
+	path = src/M3Learning-Util
+	url = https://github.com/m3-learning/M3Learning-Util.git
