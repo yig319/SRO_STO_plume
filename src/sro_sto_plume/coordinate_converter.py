@@ -1,5 +1,5 @@
 
-def convert_top_left_origin_to_matplotlib(coords, fig):
+def convert_top_left_origin_to_matplotlib(coords, fig_height):
     """
     Converts coordinates from a top-left origin system to matplotlib's bottom-left origin.
 
@@ -14,9 +14,6 @@ def convert_top_left_origin_to_matplotlib(coords, fig):
     """
     # Extract the original top-left coordinates
     x, y, width, height = coords
-
-    # Get the figure's height in inches (useful for conversion)
-    fig_height = fig.get_figheight()
 
     # Convert the y-coordinate to matplotlib's bottom-left origin
     y_new = fig_height - y - height  # Flip the y-axis
